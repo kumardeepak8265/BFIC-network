@@ -23,7 +23,7 @@ function NavBar() {
         </div>
         {handleHamburger && (
           <GiHamburgerMenu
-            className="text-white text-4xl"
+            className="text-white text-4xl sm:hidden"
             onClick={onhandleHamburger}
           />
         )}
